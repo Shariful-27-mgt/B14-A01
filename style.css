@@ -161,17 +161,6 @@ font-weight:bold;
 
 }
 
-.get-pro-btn{
-margin-top: 20px;
-margin-left: 10%;
-background-color: blue;
-font-weight: bold;
-color: white;
-border-color: blue;
-border-radius: 5px;
-padding: 10px 60px;
-cursor: pointer;
-}
 
 
 .secure-your-spot-cards-content button{
@@ -191,14 +180,61 @@ cursor: pointer;
     color:white;
     padding: 40px 60px;
 }
-.get-pro-btn{
-margin-top: 20px;
-margin-left: 10%;
-background-color: blue;
-font-weight: bold;
-color: white;
-border-color: blue;
-border-radius: 5px;
-padding: 10px 60px;
-cursor: pointer;
+
+.schedule-section{
+    max-width: 1200px;
+    margin: 100px auto;
+    padding: 0 20px;
+}
+
+.schedule-section h2{
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.schedule-subtitle{
+    text-align: center;
+    color: gray;
+    margin-bottom: 60px;
+}
+
+.schedule-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.schedule-card{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+    padding: 25px;
+    border-radius: 20px;
+
+    background-color: #f7f7f7;
+
+    transition: 0.3s;
+}
+
+.schedule-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.time{
+    min-width: 120px;
+
+    font-size: 24px;
+    font-weight: bold;
+    color: #6c63ff;
+}
+
+.session-details h3{
+    margin-bottom: 10px;
+}
+
+.session-details p{
+    color: #666;
 }
