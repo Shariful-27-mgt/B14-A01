@@ -40,7 +40,7 @@ cursor: pointer;
 .hero-banner-content{
  position:absolute;
  top:90px;
- left:35%;
+ left:40%;
  color: white;
 }
 
@@ -62,7 +62,7 @@ cursor: pointer;
 }
 
 .hero-banner-content button{
-     margin-top:500px;
+     margin-top:600px;
      margin-left: 200px;
 }
 
